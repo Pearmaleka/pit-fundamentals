@@ -1,0 +1,72 @@
+tag,size_class,n
+Assets,1-10%,3569
+Assets,<1%,9973
+Assets,>=10%,2987
+Assets,scale x1000,118
+Assets,sign change,7
+Assets,unchanged,365049
+CashAndCashEquivalentsAtCarryingValue,1-10%,2741
+CashAndCashEquivalentsAtCarryingValue,<1%,5518
+CashAndCashEquivalentsAtCarryingValue,>=10%,7133
+CashAndCashEquivalentsAtCarryingValue,scale x1000,225
+CashAndCashEquivalentsAtCarryingValue,sign change,65
+CashAndCashEquivalentsAtCarryingValue,unchanged,311298
+EarningsPerShareBasic,1-10%,7565
+EarningsPerShareBasic,<1%,1351
+EarningsPerShareBasic,>=10%,20000
+EarningsPerShareBasic,scale x1000,216
+EarningsPerShareBasic,sign change,1446
+EarningsPerShareBasic,unchanged,353863
+EarningsPerShareDiluted,1-10%,7569
+EarningsPerShareDiluted,<1%,1401
+EarningsPerShareDiluted,>=10%,18625
+EarningsPerShareDiluted,scale x1000,198
+EarningsPerShareDiluted,sign change,1378
+EarningsPerShareDiluted,unchanged,339359
+Liabilities,1-10%,3164
+Liabilities,<1%,5739
+Liabilities,>=10%,2858
+Liabilities,scale x1000,90
+Liabilities,sign change,16
+Liabilities,unchanged,297975
+NetCashProvidedByUsedInOperatingActivities,1-10%,7927
+NetCashProvidedByUsedInOperatingActivities,<1%,10232
+NetCashProvidedByUsedInOperatingActivities,>=10%,8844
+NetCashProvidedByUsedInOperatingActivities,scale x1000,192
+NetCashProvidedByUsedInOperatingActivities,sign change,2221
+NetCashProvidedByUsedInOperatingActivities,unchanged,312952
+NetIncomeLoss,1-10%,10288
+NetIncomeLoss,<1%,15035
+NetIncomeLoss,>=10%,16273
+NetIncomeLoss,scale x1000,563
+NetIncomeLoss,sign change,4365
+NetIncomeLoss,unchanged,519772
+OperatingIncomeLoss,1-10%,16467
+OperatingIncomeLoss,<1%,14297
+OperatingIncomeLoss,>=10%,21711
+OperatingIncomeLoss,scale x1000,301
+OperatingIncomeLoss,sign change,4107
+OperatingIncomeLoss,unchanged,397644
+RevenueFromContractWithCustomerExcludingAssessedTax,1-10%,1425
+RevenueFromContractWithCustomerExcludingAssessedTax,<1%,2351
+RevenueFromContractWithCustomerExcludingAssessedTax,>=10%,3244
+RevenueFromContractWithCustomerExcludingAssessedTax,scale x1000,3
+RevenueFromContractWithCustomerExcludingAssessedTax,unchanged,103902
+Revenues,1-10%,6411
+Revenues,<1%,8048
+Revenues,>=10%,8320
+Revenues,scale x1000,242
+Revenues,sign change,71
+Revenues,unchanged,201483
+SalesRevenueNet,1-10%,3368
+SalesRevenueNet,<1%,3422
+SalesRevenueNet,>=10%,2956
+SalesRevenueNet,scale x1000,81
+SalesRevenueNet,sign change,13
+SalesRevenueNet,unchanged,75002
+StockholdersEquity,1-10%,4953
+StockholdersEquity,<1%,9674
+StockholdersEquity,>=10%,5585
+StockholdersEquity,scale x1000,192
+StockholdersEquity,sign change,3160
+StockholdersEquity,unchanged,327001

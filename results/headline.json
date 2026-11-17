@@ -1,0 +1,865 @@
+{
+ "rows_repaired_tab_in_field": 329,
+ "lag_by_form_status": [
+  {
+   "form": "10-K",
+   "afs": "1-LAF",
+   "n": 31121,
+   "lag_p10": 44.0,
+   "lag_median": 55.0,
+   "lag_p90": 60.0,
+   "share_late": 0.0267,
+   "share_late_after_extension": 0.005
+  },
+  {
+   "form": "10-K",
+   "afs": "2-ACC",
+   "n": 16230,
+   "lag_p10": 54.0,
+   "lag_median": 69.0,
+   "lag_p90": 76.0,
+   "share_late": 0.0588,
+   "share_late_after_extension": 0.0163
+  },
+  {
+   "form": "10-K",
+   "afs": "3-SRA",
+   "n": 74,
+   "lag_p10": 62.3,
+   "lag_median": 74.0,
+   "lag_p90": 103.7,
+   "share_late": 0.2703,
+   "share_late_after_extension": 0.1216
+  },
+  {
+   "form": "10-K",
+   "afs": "4-NON",
+   "n": 27389,
+   "lag_p10": 60.0,
+   "lag_median": 86.0,
+   "lag_p90": 107.0,
+   "share_late": 0.2214,
+   "share_late_after_extension": 0.102
+  },
+  {
+   "form": "10-K",
+   "afs": "5-SML",
+   "n": 19322,
+   "lag_p10": 71.0,
+   "lag_median": 90.0,
+   "lag_p90": 110.0,
+   "share_late": 0.3563,
+   "share_late_after_extension": 0.1462
+  },
+  {
+   "form": "10-Q",
+   "afs": "1-LAF",
+   "n": 93220,
+   "lag_p10": 26.0,
+   "lag_median": 35.0,
+   "lag_p90": 40.0,
+   "share_late": 0.025,
+   "share_late_after_extension": 0.0054
+  },
+  {
+   "form": "10-Q",
+   "afs": "2-ACC",
+   "n": 50216,
+   "lag_p10": 31.0,
+   "lag_median": 38.0,
+   "lag_p90": 41.0,
+   "share_late": 0.0511,
+   "share_late_after_extension": 0.0149
+  },
+  {
+   "form": "10-Q",
+   "afs": "3-SRA",
+   "n": 115,
+   "lag_p10": 35.4,
+   "lag_median": 40.0,
+   "lag_p90": 53.6,
+   "share_late": 0.4348,
+   "share_late_after_extension": 0.2174
+  },
+  {
+   "form": "10-Q",
+   "afs": "4-NON",
+   "n": 88349,
+   "lag_p10": 36.0,
+   "lag_median": 44.0,
+   "lag_p90": 52.0,
+   "share_late": 0.1713,
+   "share_late_after_extension": 0.1106
+  },
+  {
+   "form": "10-Q",
+   "afs": "5-SML",
+   "n": 62248,
+   "lag_p10": 38.0,
+   "lag_median": 45.0,
+   "lag_p90": 53.0,
+   "share_late": 0.2538,
+   "share_late_after_extension": 0.1442
+  }
+ ],
+ "unpublished_after_L_days": {
+  "10-K": {
+   "after_30d": 0.9966,
+   "after_45d": 0.947,
+   "after_60d": 0.6181,
+   "after_75d": 0.4046,
+   "after_90d": 0.1686,
+   "after_120d": 0.0412,
+   "after_180d": 0.0213
+  },
+  "10-Q": {
+   "after_30d": 0.8913,
+   "after_45d": 0.1467,
+   "after_60d": 0.039,
+   "after_75d": 0.0318,
+   "after_90d": 0.0252,
+   "after_120d": 0.0191,
+   "after_180d": 0.0132
+  }
+ },
+ "revisions_by_tag": [
+  {
+   "tag": "Assets",
+   "n_facts": 381703,
+   "n_rereported": 116050,
+   "share_changed": 0.0436,
+   "share_changed_if_rereported": 0.1435,
+   "share_changes_via_amendment": 0.151,
+   "median_days_to_change": 325.0,
+   "large": 0.0082
+  },
+  {
+   "tag": "CashAndCashEquivalentsAtCarryingValue",
+   "n_facts": 326980,
+   "n_rereported": 213897,
+   "share_changed": 0.048,
+   "share_changed_if_rereported": 0.0733,
+   "share_changes_via_amendment": 0.0439,
+   "median_days_to_change": 365.0,
+   "large": 0.0227
+  },
+  {
+   "tag": "EarningsPerShareBasic",
+   "n_facts": 384441,
+   "n_rereported": 317402,
+   "share_changed": 0.0795,
+   "share_changed_if_rereported": 0.0963,
+   "share_changes_via_amendment": 0.093,
+   "median_days_to_change": 365.0,
+   "large": 0.0563
+  },
+  {
+   "tag": "EarningsPerShareDiluted",
+   "n_facts": 368530,
+   "n_rereported": 305136,
+   "share_changed": 0.0792,
+   "share_changed_if_rereported": 0.0956,
+   "share_changes_via_amendment": 0.0929,
+   "median_days_to_change": 365.0,
+   "large": 0.0548
+  },
+  {
+   "tag": "Liabilities",
+   "n_facts": 309842,
+   "n_rereported": 83420,
+   "share_changed": 0.0383,
+   "share_changed_if_rereported": 0.1423,
+   "share_changes_via_amendment": 0.2346,
+   "median_days_to_change": 210.0,
+   "large": 0.0096
+  },
+  {
+   "tag": "NetCashProvidedByUsedInOperatingActivities",
+   "n_facts": 342368,
+   "n_rereported": 264945,
+   "share_changed": 0.0859,
+   "share_changed_if_rereported": 0.111,
+   "share_changes_via_amendment": 0.065,
+   "median_days_to_change": 365.0,
+   "large": 0.0329
+  },
+  {
+   "tag": "NetIncomeLoss",
+   "n_facts": 566296,
+   "n_rereported": 467241,
+   "share_changed": 0.0822,
+   "share_changed_if_rereported": 0.0996,
+   "share_changes_via_amendment": 0.1389,
+   "median_days_to_change": 364.0,
+   "large": 0.0374
+  },
+  {
+   "tag": "OperatingIncomeLoss",
+   "n_facts": 454527,
+   "n_rereported": 374125,
+   "share_changed": 0.1251,
+   "share_changed_if_rereported": 0.152,
+   "share_changes_via_amendment": 0.0708,
+   "median_days_to_change": 365.0,
+   "large": 0.0575
+  },
+  {
+   "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+   "n_facts": 110925,
+   "n_rereported": 87553,
+   "share_changed": 0.0633,
+   "share_changed_if_rereported": 0.0802,
+   "share_changes_via_amendment": 0.0524,
+   "median_days_to_change": 364.0,
+   "large": 0.0293
+  },
+  {
+   "tag": "Revenues",
+   "n_facts": 224575,
+   "n_rereported": 174082,
+   "share_changed": 0.1028,
+   "share_changed_if_rereported": 0.1327,
+   "share_changes_via_amendment": 0.0518,
+   "median_days_to_change": 364.0,
+   "large": 0.0384
+  },
+  {
+   "tag": "SalesRevenueNet",
+   "n_facts": 84842,
+   "n_rereported": 66150,
+   "share_changed": 0.116,
+   "share_changed_if_rereported": 0.1488,
+   "share_changes_via_amendment": 0.0473,
+   "median_days_to_change": 364.0,
+   "large": 0.0359
+  },
+  {
+   "tag": "StockholdersEquity",
+   "n_facts": 350565,
+   "n_rereported": 191471,
+   "share_changed": 0.0672,
+   "share_changed_if_rereported": 0.1231,
+   "share_changes_via_amendment": 0.1589,
+   "median_days_to_change": 363.0,
+   "large": 0.0255
+  }
+ ],
+ "revisions_from_amendments": 0.099,
+ "revisions_overall": {
+  "facts": 3905594,
+  "changed": 0.0769,
+  "large": 0.0353
+ },
+ "revisions_by_year_form": [
+  {
+   "year": 2009,
+   "first_form": "10-K",
+   "n_facts": 266,
+   "n_rereported": 259,
+   "share_changed": 0.2444,
+   "share_changed_if_rereported": 0.251,
+   "share_changes_via_amendment": 0.1538,
+   "median_days_to_change": 364.0
+  },
+  {
+   "year": 2009,
+   "first_form": "10-Q",
+   "n_facts": 9877,
+   "n_rereported": 7780,
+   "share_changed": 0.1003,
+   "share_changed_if_rereported": 0.1274,
+   "share_changes_via_amendment": 0.0727,
+   "median_days_to_change": 364.0
+  },
+  {
+   "year": 2010,
+   "first_form": "10-K",
+   "n_facts": 4683,
+   "n_rereported": 4482,
+   "share_changed": 0.1687,
+   "share_changed_if_rereported": 0.1763,
+   "share_changes_via_amendment": 0.0595,
+   "median_days_to_change": 367.0
+  },
+  {
+   "year": 2010,
+   "first_form": "10-Q",
+   "n_facts": 36289,
+   "n_rereported": 27589,
+   "share_changed": 0.0959,
+   "share_changed_if_rereported": 0.1261,
+   "share_changes_via_amendment": 0.0624,
+   "median_days_to_change": 365.0
+  },
+  {
+   "year": 2011,
+   "first_form": "10-K",
+   "n_facts": 15419,
+   "n_rereported": 14404,
+   "share_changed": 0.1403,
+   "share_changed_if_rereported": 0.1502,
+   "share_changes_via_amendment": 0.0601,
+   "median_days_to_change": 368.0
+  },
+  {
+   "year": 2011,
+   "first_form": "10-Q",
+   "n_facts": 150002,
+   "n_rereported": 100268,
+   "share_changed": 0.0916,
+   "share_changed_if_rereported": 0.1371,
+   "share_changes_via_amendment": 0.1449,
+   "median_days_to_change": 366.0
+  },
+  {
+   "year": 2012,
+   "first_form": "10-K",
+   "n_facts": 61514,
+   "n_rereported": 53986,
+   "share_changed": 0.1272,
+   "share_changed_if_rereported": 0.1449,
+   "share_changes_via_amendment": 0.1156,
+   "median_days_to_change": 366.0
+  },
+  {
+   "year": 2012,
+   "first_form": "10-Q",
+   "n_facts": 212213,
+   "n_rereported": 134578,
+   "share_changed": 0.0861,
+   "share_changed_if_rereported": 0.1357,
+   "share_changes_via_amendment": 0.1157,
+   "median_days_to_change": 364.0
+  },
+  {
+   "year": 2013,
+   "first_form": "10-K",
+   "n_facts": 65612,
+   "n_rereported": 57152,
+   "share_changed": 0.1171,
+   "share_changed_if_rereported": 0.1344,
+   "share_changes_via_amendment": 0.088,
+   "median_days_to_change": 364.0
+  },
+  {
+   "year": 2013,
+   "first_form": "10-Q",
+   "n_facts": 213689,
+   "n_rereported": 133672,
+   "share_changed": 0.0833,
+   "share_changed_if_rereported": 0.1331,
+   "share_changes_via_amendment": 0.1072,
+   "median_days_to_change": 364.0
+  },
+  {
+   "year": 2014,
+   "first_form": "10-K",
+   "n_facts": 64036,
+   "n_rereported": 56225,
+   "share_changed": 0.1144,
+   "share_changed_if_rereported": 0.1303,
+   "share_changes_via_amendment": 0.1008,
+   "median_days_to_change": 365.0
+  },
+  {
+   "year": 2014,
+   "first_form": "10-Q",
+   "n_facts": 207753,
+   "n_rereported": 132491,
+   "share_changed": 0.0761,
+   "share_changed_if_rereported": 0.1194,
+   "share_changes_via_amendment": 0.1102,
+   "median_days_to_change": 364.0
+  },
+  {
+   "year": 2015,
+   "first_form": "10-K",
+   "n_facts": 60820,
+   "n_rereported": 54641,
+   "share_changed": 0.1319,
+   "share_changed_if_rereported": 0.1468,
+   "share_changes_via_amendment": 0.0728,
+   "median_days_to_change": 364.0
+  },
+  {
+   "year": 2015,
+   "first_form": "10-Q",
+   "n_facts": 197109,
+   "n_rereported": 124599,
+   "share_changed": 0.0689,
+   "share_changed_if_rereported": 0.1089,
+   "share_changes_via_amendment": 0.1158,
+   "median_days_to_change": 364.0
+  },
+  {
+   "year": 2016,
+   "first_form": "10-K",
+   "n_facts": 56409,
+   "n_rereported": 51423,
+   "share_changed": 0.1395,
+   "share_changed_if_rereported": 0.153,
+   "share_changes_via_amendment": 0.0555,
+   "median_days_to_change": 362.0
+  },
+  {
+   "year": 2016,
+   "first_form": "10-Q",
+   "n_facts": 179888,
+   "n_rereported": 117366,
+   "share_changed": 0.0782,
+   "share_changed_if_rereported": 0.1198,
+   "share_changes_via_amendment": 0.08,
+   "median_days_to_change": 364.0
+  },
+  {
+   "year": 2017,
+   "first_form": "10-K",
+   "n_facts": 55587,
+   "n_rereported": 51030,
+   "share_changed": 0.1231,
+   "share_changed_if_rereported": 0.1341,
+   "share_changes_via_amendment": 0.0542,
+   "median_days_to_change": 368.0
+  },
+  {
+   "year": 2017,
+   "first_form": "10-Q",
+   "n_facts": 179151,
+   "n_rereported": 113632,
+   "share_changed": 0.0977,
+   "share_changed_if_rereported": 0.1541,
+   "share_changes_via_amendment": 0.0728,
+   "median_days_to_change": 364.0
+  },
+  {
+   "year": 2018,
+   "first_form": "10-K",
+   "n_facts": 55469,
+   "n_rereported": 48307,
+   "share_changed": 0.1337,
+   "share_changed_if_rereported": 0.1535,
+   "share_changes_via_amendment": 0.0403,
+   "median_days_to_change": 364.0
+  },
+  {
+   "year": 2018,
+   "first_form": "10-Q",
+   "n_facts": 180755,
+   "n_rereported": 119653,
+   "share_changed": 0.0771,
+   "share_changed_if_rereported": 0.1165,
+   "share_changes_via_amendment": 0.0694,
+   "median_days_to_change": 364.0
+  },
+  {
+   "year": 2019,
+   "first_form": "10-K",
+   "n_facts": 55356,
+   "n_rereported": 50604,
+   "share_changed": 0.0848,
+   "share_changed_if_rereported": 0.0928,
+   "share_changes_via_amendment": 0.0675,
+   "median_days_to_change": 365.0
+  },
+  {
+   "year": 2019,
+   "first_form": "10-Q",
+   "n_facts": 177359,
+   "n_rereported": 121846,
+   "share_changed": 0.064,
+   "share_changed_if_rereported": 0.0932,
+   "share_changes_via_amendment": 0.0816,
+   "median_days_to_change": 365.0
+  },
+  {
+   "year": 2020,
+   "first_form": "10-K",
+   "n_facts": 53943,
+   "n_rereported": 47539,
+   "share_changed": 0.0778,
+   "share_changed_if_rereported": 0.0883,
+   "share_changes_via_amendment": 0.0963,
+   "median_days_to_change": 365.0
+  },
+  {
+   "year": 2020,
+   "first_form": "10-Q",
+   "n_facts": 174639,
+   "n_rereported": 122377,
+   "share_changed": 0.0658,
+   "share_changed_if_rereported": 0.0939,
+   "share_changes_via_amendment": 0.1076,
+   "median_days_to_change": 364.0
+  },
+  {
+   "year": 2021,
+   "first_form": "10-K",
+   "n_facts": 52914,
+   "n_rereported": 46160,
+   "share_changed": 0.0957,
+   "share_changed_if_rereported": 0.1097,
+   "share_changes_via_amendment": 0.2045,
+   "median_days_to_change": 360.0
+  },
+  {
+   "year": 2021,
+   "first_form": "10-Q",
+   "n_facts": 200805,
+   "n_rereported": 141016,
+   "share_changed": 0.068,
+   "share_changed_if_rereported": 0.0968,
+   "share_changes_via_amendment": 0.111,
+   "median_days_to_change": 364.0
+  },
+  {
+   "year": 2022,
+   "first_form": "10-K",
+   "n_facts": 55446,
+   "n_rereported": 51046,
+   "share_changed": 0.083,
+   "share_changed_if_rereported": 0.0902,
+   "share_changes_via_amendment": 0.1142,
+   "median_days_to_change": 365.0
+  },
+  {
+   "year": 2022,
+   "first_form": "10-Q",
+   "n_facts": 215349,
+   "n_rereported": 146924,
+   "share_changed": 0.0678,
+   "share_changed_if_rereported": 0.0994,
+   "share_changes_via_amendment": 0.1268,
+   "median_days_to_change": 364.0
+  },
+  {
+   "year": 2023,
+   "first_form": "10-K",
+   "n_facts": 54140,
+   "n_rereported": 49471,
+   "share_changed": 0.0894,
+   "share_changed_if_rereported": 0.0978,
+   "share_changes_via_amendment": 0.1124,
+   "median_days_to_change": 365.0
+  },
+  {
+   "year": 2023,
+   "first_form": "10-Q",
+   "n_facts": 206451,
+   "n_rereported": 142150,
+   "share_changed": 0.0672,
+   "share_changed_if_rereported": 0.0976,
+   "share_changes_via_amendment": 0.114,
+   "median_days_to_change": 365.0
+  },
+  {
+   "year": 2024,
+   "first_form": "10-K",
+   "n_facts": 51070,
+   "n_rereported": 47229,
+   "share_changed": 0.078,
+   "share_changed_if_rereported": 0.0843,
+   "share_changes_via_amendment": 0.1072,
+   "median_days_to_change": 364.0
+  },
+  {
+   "year": 2024,
+   "first_form": "10-Q",
+   "n_facts": 194572,
+   "n_rereported": 135636,
+   "share_changed": 0.0615,
+   "share_changed_if_rereported": 0.0883,
+   "share_changes_via_amendment": 0.0976,
+   "median_days_to_change": 364.0
+  },
+  {
+   "year": 2025,
+   "first_form": "10-K",
+   "n_facts": 48849,
+   "n_rereported": 43601,
+   "share_changed": 0.0574,
+   "share_changed_if_rereported": 0.0643,
+   "share_changes_via_amendment": 0.0735,
+   "median_days_to_change": 364.0
+  },
+  {
+   "year": 2025,
+   "first_form": "10-Q",
+   "n_facts": 189764,
+   "n_rereported": 88234,
+   "share_changed": 0.0376,
+   "share_changed_if_rereported": 0.081,
+   "share_changes_via_amendment": 0.082,
+   "median_days_to_change": 364.0
+  },
+  {
+   "year": 2026,
+   "first_form": "10-K",
+   "n_facts": 44942,
+   "n_rereported": 17653,
+   "share_changed": 0.0108,
+   "share_changed_if_rereported": 0.0275,
+   "share_changes_via_amendment": 0.1667,
+   "median_days_to_change": 70.0
+  },
+  {
+   "year": 2026,
+   "first_form": "10-Q",
+   "n_facts": 123454,
+   "n_rereported": 6449,
+   "share_changed": 0.0028,
+   "share_changed_if_rereported": 0.0529,
+   "share_changes_via_amendment": 0.3871,
+   "median_days_to_change": 91.0
+  }
+ ],
+ "lookahead_2012_2024": {
+  "naive_0m": {
+   "n_naive": 6003.2179,
+   "n_pit": 5587.5385,
+   "share_not_public": 0.2476,
+   "share_other_year": 0.198,
+   "share_same_year_value_differs": 0.0999,
+   "share_quintile_differs": 0.1213,
+   "share_extreme_not_confirmed": 0.1579,
+   "rank_corr": 0.9286
+  },
+  "naive_3m": {
+   "n_naive": 5786.3462,
+   "n_pit": 5587.5385,
+   "share_not_public": 0.0508,
+   "share_other_year": 0.049,
+   "share_same_year_value_differs": 0.1184,
+   "share_quintile_differs": 0.0538,
+   "share_extreme_not_confirmed": 0.0837,
+   "rank_corr": 0.9663
+  },
+  "naive_6m": {
+   "n_naive": 5487.0192,
+   "n_pit": 5587.5385,
+   "share_not_public": 0.0299,
+   "share_other_year": 0.2949,
+   "share_same_year_value_differs": 0.0839,
+   "share_quintile_differs": 0.1482,
+   "share_extreme_not_confirmed": 0.1386,
+   "rank_corr": 0.9182
+  }
+ },
+ "lookahead_by_month_of_year": [
+  {
+   "method": "naive_0m",
+   "month": 1,
+   "share_not_public": 0.7468,
+   "share_quintile_differs": 0.3219
+  },
+  {
+   "method": "naive_0m",
+   "month": 2,
+   "share_not_public": 0.5006,
+   "share_quintile_differs": 0.2438
+  },
+  {
+   "method": "naive_0m",
+   "month": 3,
+   "share_not_public": 0.1787,
+   "share_quintile_differs": 0.1044
+  },
+  {
+   "method": "naive_0m",
+   "month": 4,
+   "share_not_public": 0.1068,
+   "share_quintile_differs": 0.0632
+  },
+  {
+   "method": "naive_0m",
+   "month": 5,
+   "share_not_public": 0.092,
+   "share_quintile_differs": 0.0586
+  },
+  {
+   "method": "naive_0m",
+   "month": 6,
+   "share_not_public": 0.1082,
+   "share_quintile_differs": 0.0639
+  },
+  {
+   "method": "naive_0m",
+   "month": 7,
+   "share_not_public": 0.1083,
+   "share_quintile_differs": 0.0668
+  },
+  {
+   "method": "naive_0m",
+   "month": 8,
+   "share_not_public": 0.0956,
+   "share_quintile_differs": 0.0605
+  },
+  {
+   "method": "naive_0m",
+   "month": 9,
+   "share_not_public": 0.1111,
+   "share_quintile_differs": 0.0653
+  },
+  {
+   "method": "naive_0m",
+   "month": 10,
+   "share_not_public": 0.1053,
+   "share_quintile_differs": 0.0622
+  },
+  {
+   "method": "naive_0m",
+   "month": 11,
+   "share_not_public": 0.0859,
+   "share_quintile_differs": 0.0535
+  },
+  {
+   "method": "naive_0m",
+   "month": 12,
+   "share_not_public": 0.7312,
+   "share_quintile_differs": 0.2913
+  },
+  {
+   "method": "naive_3m",
+   "month": 1,
+   "share_not_public": 0.0433,
+   "share_quintile_differs": 0.0383
+  },
+  {
+   "method": "naive_3m",
+   "month": 2,
+   "share_not_public": 0.032,
+   "share_quintile_differs": 0.1453
+  },
+  {
+   "method": "naive_3m",
+   "month": 3,
+   "share_not_public": 0.1296,
+   "share_quintile_differs": 0.0867
+  },
+  {
+   "method": "naive_3m",
+   "month": 4,
+   "share_not_public": 0.0546,
+   "share_quintile_differs": 0.0467
+  },
+  {
+   "method": "naive_3m",
+   "month": 5,
+   "share_not_public": 0.0482,
+   "share_quintile_differs": 0.0417
+  },
+  {
+   "method": "naive_3m",
+   "month": 6,
+   "share_not_public": 0.0414,
+   "share_quintile_differs": 0.0423
+  },
+  {
+   "method": "naive_3m",
+   "month": 7,
+   "share_not_public": 0.0466,
+   "share_quintile_differs": 0.0413
+  },
+  {
+   "method": "naive_3m",
+   "month": 8,
+   "share_not_public": 0.0426,
+   "share_quintile_differs": 0.0436
+  },
+  {
+   "method": "naive_3m",
+   "month": 9,
+   "share_not_public": 0.0478,
+   "share_quintile_differs": 0.0402
+  },
+  {
+   "method": "naive_3m",
+   "month": 10,
+   "share_not_public": 0.042,
+   "share_quintile_differs": 0.0375
+  },
+  {
+   "method": "naive_3m",
+   "month": 11,
+   "share_not_public": 0.0373,
+   "share_quintile_differs": 0.042
+  },
+  {
+   "method": "naive_3m",
+   "month": 12,
+   "share_not_public": 0.0444,
+   "share_quintile_differs": 0.0394
+  },
+  {
+   "method": "naive_6m",
+   "month": 1,
+   "share_not_public": 0.0364,
+   "share_quintile_differs": 0.0654
+  },
+  {
+   "method": "naive_6m",
+   "month": 2,
+   "share_not_public": 0.0283,
+   "share_quintile_differs": 0.1784
+  },
+  {
+   "method": "naive_6m",
+   "month": 3,
+   "share_not_public": 0.0231,
+   "share_quintile_differs": 0.282
+  },
+  {
+   "method": "naive_6m",
+   "month": 4,
+   "share_not_public": 0.0198,
+   "share_quintile_differs": 0.3101
+  },
+  {
+   "method": "naive_6m",
+   "month": 5,
+   "share_not_public": 0.0193,
+   "share_quintile_differs": 0.3096
+  },
+  {
+   "method": "naive_6m",
+   "month": 6,
+   "share_not_public": 0.0178,
+   "share_quintile_differs": 0.3178
+  },
+  {
+   "method": "naive_6m",
+   "month": 7,
+   "share_not_public": 0.0398,
+   "share_quintile_differs": 0.048
+  },
+  {
+   "method": "naive_6m",
+   "month": 8,
+   "share_not_public": 0.0372,
+   "share_quintile_differs": 0.0516
+  },
+  {
+   "method": "naive_6m",
+   "month": 9,
+   "share_not_public": 0.035,
+   "share_quintile_differs": 0.0579
+  },
+  {
+   "method": "naive_6m",
+   "month": 10,
+   "share_not_public": 0.0351,
+   "share_quintile_differs": 0.0489
+  },
+  {
+   "method": "naive_6m",
+   "month": 11,
+   "share_not_public": 0.0331,
+   "share_quintile_differs": 0.0573
+  },
+  {
+   "method": "naive_6m",
+   "month": 12,
+   "share_not_public": 0.0343,
+   "share_quintile_differs": 0.0508
+  }
+ ]
+}
